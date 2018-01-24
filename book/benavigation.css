@@ -1,0 +1,15 @@
+.page-inner {
+    max-width: 1000px;
+}
+
+#authentication {
+    float: right;
+}
+
+#books {
+    display: inline-block;
+}
+
+#roles {
+    display: none;
+}
