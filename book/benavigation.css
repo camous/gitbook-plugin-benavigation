@@ -6,10 +6,31 @@
     float: right;
 }
 
+#books a:link,
+#books a:visited,
+#books a:hover {
+   color: white;
+}
+
 #books {
     display: inline-block;
+	text-transform: uppercase;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+#books a:link,
+#books a:visited,
+#books a:hover {
+   color: black;
 }
 
 #roles {
     display: none;
+}
+
+#benavigation {
+	background: linear-gradient(to right,#29D5FF, #6C03A8);
+    font-size: 14px;
+    height: 25px;
 }
