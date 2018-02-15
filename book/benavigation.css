@@ -6,9 +6,9 @@
     float: right;
 }
 
-#books a:link,
-#books a:visited,
-#books a:hover {
+#authentication a:link,
+#authentication a:visited,
+#authentication a:hover {
    color: white;
 }
 
@@ -20,9 +20,12 @@
 }
 
 #books a:link,
-#books a:visited,
-#books a:hover {
+#books a:visited {
    color: black;
+}
+
+#books a:hover {
+   color: #6C03A8;
 }
 
 #roles {
@@ -32,5 +35,4 @@
 #benavigation {
 	background: linear-gradient(to right,#29D5FF, #6C03A8);
     font-size: 14px;
-    height: 25px;
 }
