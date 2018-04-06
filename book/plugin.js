@@ -25,7 +25,7 @@ require(['gitbook', 'jquery'], function (gitbook, $) {
 
         $.ajax(settings).done(function (response) {
           for (var id in response) {
-            $('#benavigation > #books').append('<a href="/' + response[id] + '">' + response[id] + '</a> ');
+            $('#benavigation > #books').append('<a href="/' + response[id] + '/">' + response[id] + '</a> ');
           }
         });
       });
