@@ -36,3 +36,7 @@
 	background: linear-gradient(to right,#93D522, #023B88);
     font-size: 14px;
 }
+
+html {
+	overflow-y : hidden;
+}
