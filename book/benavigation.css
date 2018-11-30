@@ -37,6 +37,6 @@
     font-size: 14px;
 }
 
-html {
-	overflow-y : hidden;
+.book {
+    height: calc(100% - 20px) !important;
 }

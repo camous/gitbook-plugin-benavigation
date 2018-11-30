@@ -2,7 +2,7 @@
     "name": "gitbook-plugin-benavigation",
     "description": "Bearingpoint gitbook navigation",
     "main": "index.js",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "engines": {
         "gitbook": "*"
     },
