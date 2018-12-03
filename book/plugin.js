@@ -14,14 +14,14 @@ require(['gitbook', 'jquery'], function (gitbook, $) {
           method: 'GET'
         };
 
-        $element.before(`<div id="benavigation">
-            <div id="books">&nbsp;</div>
-            <div id="authentication">&nbsp;</div>
-            <div id="roles">
-              <div id="pageroles">&nbsp;</div>
-              <div id="userroles">&nbsp;</div>
-            </div>
-          </div>`);
+        $element.before('<div id="benavigation">' +
+            '<div id="books">&nbsp;</div>' +
+            '<div id="authentication">&nbsp;</div>' +
+            '<div id="roles">' +
+              '<div id="pageroles">&nbsp;</div>' +
+              '<div id="userroles">&nbsp;</div>' +
+            '</div>' +
+          '</div>');
 
         $.ajax(settings).done(function (response) {
           for (var id in response) {
